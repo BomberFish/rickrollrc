@@ -1,7 +1,7 @@
 #!/bin/bash
 # Rick Astley in your Terminal.
 # By Serene Han and Justine Tunney <3
-version='1.2'
+version='1.3'
 rick='https://raw.githubusercontent.com/BomberFish/rickrollrc-zsh/master/media'
 video="$rick/astley80.full.bz2"
 # TODO: I'll let someone with mac or windows machine send a pull request
@@ -36,7 +36,7 @@ for arg in "$@"; do
     echo -en "${red}[Inject] "
     echo $NEVER_GONNA >> $MAKE_YOU_CRY
     echo -e "${green}Appended to $MAKE_YOU_CRY. <3"
-    echo -en "${yell}If you've astley overdosed, "
+    echo -en "${yell}If you've overdosed on astley, "
     echo -e "delete the line ${purp}\"$NEVER_GONNA\"${yell}."
     exit
   else
